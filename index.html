@@ -1,11 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website SMKN 1 GARUT</title>
+    <title>SMKN 1 Garut - Web Sekolah</title>
+    <!-- CSS Bootstrap dari CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
-    <h1>Selamat Datang Di Website SMKN 1 GARUT</h1>
+<body class="bg-light">
+
+    <!-- Navbar / Menu Atas -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">🏫 SMKN 1 GARUT</a>
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link active" href="index.html">Berita</a>
+                <a class="nav-link" href="profil.html">Profil Siswa</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Hero -->
+    <div class="bg-white py-5 mb-4 shadow-sm">
+        <div class="container text-center py-4">
+            <h1 class="display-5 fw-bold text-success">Selamat Datang di SMKN 1 Garut</h1>
+            <p class="lead text-muted">Mewujudkan Generasi Cerdas, Berkarakter, Bermartabat, dan Berteknologi.</p>
+            <a href="profil.html" class="btn btn-success btn-lg mt-2">Lihat Profil Siswa</a>
+        </div>
+    </div>
+
+    <!-- Konten Berita -->
+    <div class="container my-5">
+        <h3 class="fw-bold mb-4 text-secondary">Pengumuman & Berita Terbaru</h3>
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="card h-100 shadow-sm border-0">
+                    <div class="card-body">
+                        <span class="badge bg-success mb-2">Kegiatan Praktikum</span>
+                        <h5 class="card-title fw-bold">Praktikum Git & GitHub</h5>
+                        <p class="card-text text-muted">Siswa SMKN 1 Garut sedang mempelajari konsep branching, commit, dan merge menggunakan Git & GitHub.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card h-100 shadow-sm border-0">
+                    <div class="card-body">
+                        <span class="badge bg-warning text-dark mb-2">Informasi Sekolah</span>
+                        <h5 class="card-title fw-bold">Pelaksanaan LKPD Praktikum</h5>
+                        <p class="card-text text-muted">Pengerjaan LKPD 3 tentang pengembangan fitur menggunakan branch tanpa mengganggu proyek utama.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
